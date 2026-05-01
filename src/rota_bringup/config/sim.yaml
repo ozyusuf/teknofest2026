@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    use_sim_time: true
+    profile: "sim"
+    vehicle:
+      wheelbase: 1.86       # m (Bee 1 dingil mesafesi)
+      max_steering_angle: 0.567   # rad (32.5 derece i\xc3\xa7 teker)
+      max_speed: 8.33       # m/s (30 km/sa limit)
+      max_accel: 2.5        # m/s^2 (Bee 1 max ivme)
+      max_decel: 6.5        # m/s^2 (Bee 1 max yava\xc5\x9flama)
+      width: 1.06           # m
+      length: 2.74          # m

@@ -1,0 +1,12 @@
+/**:
+  ros__parameters:
+    use_sim_time: false
+    profile: "real"
+    vehicle:
+      wheelbase: 1.86
+      max_steering_angle: 0.567
+      max_speed: 8.33
+      max_accel: 2.5
+      max_decel: 6.5
+      width: 1.06
+      length: 2.74
