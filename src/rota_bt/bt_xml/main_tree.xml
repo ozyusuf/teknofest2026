@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="MainTree">
+    <BehaviorTree ID="MainTree">
+        <Sequence name="root_sequence">
+            <Action ID="CheckSensors"      name="check_sensors"/>
+            <Action ID="CheckLocalization" name="check_localization"/>
+            <Fallback name="mission_fallback">
+                <Sequence name="normal_operation">
+                    <Action ID="MoveToGoal" name="move_to_goal"/>
+                </Sequence>
+                <Action ID="SafeStop" name="safe_stop"/>
+            </Fallback>
+        </Sequence>
+    </BehaviorTree>
+</root>
